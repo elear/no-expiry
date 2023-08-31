@@ -2,11 +2,11 @@
 
 
 
-GENDISPATCH                                                   M. Thomson
+General Area Dispatch                                         M. Thomson
 Internet-Draft                                                   Mozilla
-Updates: 2026, 2418 (if approved)                       21 November 2019
-Intended status: Best Current Practice                                  
-Expires: 24 May 2020
+Updates: 2026, 2418 (if approved)                             P. Hoffman
+Intended status: Best Current Practice                             ICANN
+Expires: 3 March 2024                                     31 August 2023
 
 
             Removing Expiration Notices from Internet-Drafts
@@ -19,16 +19,23 @@ Abstract
    requirements for expiration for Internet-Drafts from RFC 2026/BCP 9
    and RFC 2418/BCP 25.
 
-Note to Readers
+About This Document
 
-   Discussion of this document takes place on the GENDISPATCH Working
-   Group mailing list (gendispatch@ietf.org), which is archived at
-   https://mailarchive.ietf.org/arch/browse/gendispatch/
-   (https://mailarchive.ietf.org/arch/browse/gendispatch/).
+   This note is to be removed before publishing as an RFC.
+
+   The latest revision of this draft can be found at
+   https://martinthomson.github.io/no-expiry/draft-thomson-gendispatch-
+   no-expiry.html.  Status information for this document may be found at
+   https://datatracker.ietf.org/doc/draft-thomson-gendispatch-no-
+   expiry/.
+
+   Discussion of this document takes place on the General Area Dispatch
+   Working Group mailing list (mailto:gendispatch@ietf.org), which is
+   archived at https://mailarchive.ietf.org/arch/browse/gendispatch/.
+   Subscribe at https://www.ietf.org/mailman/listinfo/gendispatch/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/martinthomson/no-expiry
-   (https://github.com/martinthomson/no-expiry).
+   https://github.com/martinthomson/no-expiry.
 
 Status of This Memo
 
@@ -45,22 +52,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 May 2020.
-
-
-
-
-
-
-
-Thomson                    Expires 24 May 2020                  [Page 1]
-
-Internet-Draft             Drafts Aren't Milk              November 2019
-
+   This Internet-Draft will expire on 3 March 2024.
 
 Copyright Notice
 
-   Copyright (c) 2019 IETF Trust and the persons identified as the
+   Copyright (c) 2023 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -68,26 +64,28 @@ Copyright Notice
    license-info) in effect on the date of publication of this document.
    Please review these documents carefully, as they describe your rights
    and restrictions with respect to this document.  Code Components
-   extracted from this document must include Simplified BSD License text
-   as described in Section 4.e of the Trust Legal Provisions and are
-   provided without warranty as described in the Simplified BSD License.
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
 
 Table of Contents
 
-   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
-   2.  Removing Internet-Draft Expiration  . . . . . . . . . . . . .   2
-   3.  Replacement Procedures  . . . . . . . . . . . . . . . . . . .   3
-   4.  Security and Privacy Considerations . . . . . . . . . . . . .   4
-   5.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
-   6.  Normative References  . . . . . . . . . . . . . . . . . . . .   4
-   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   4
+   1.  Introduction
+   2.  Removing Internet-Draft Expiration
+   3.  Replacement Procedures
+   4.  Security and Privacy Considerations
+   5.  IANA Considerations
+   6.  Normative References
+   Authors' Addresses
 
 1.  Introduction
 
-   The I-D Guidelines (https://www.ietf.org/standards/ids/guidelines/)
-   declares that Internet-Drafts expire 185 days after their posting
-   unless replaced or under a range of special conditions, such as when
-   the document is under IESG review.
+   The Content Guidelines for Internet Drafts [IDCG] requires that
+   Internet-Drafts include an expiration statement.  Tooling and IETF
+   practice insist on Internet-Drafts including an expiry date 185 days
+   after their posting.  After this expiration date, some systems might
+   display an Internet-Draft differently or not at all, with some
+   exceptions, such as when the document is under IESG review.
 
    Expiration of drafts is believed to encourage authors to update
    drafts that they wish to discuss.  Expired drafts are no longer
@@ -98,21 +96,17 @@ Table of Contents
    Published RFCs routinely include informative references to drafts,
    which then usually expire.
 
+2.  Removing Internet-Draft Expiration
+
    Forced expiration serves no purpose that is not adequately served by
    the publication date on the document.
 
-2.  Removing Internet-Draft Expiration
-
-   The date of posting for an Internet-Draft is sufficient information
-   for readers to understand validity.
-
-
-
-
-Thomson                    Expires 24 May 2020                  [Page 2]
-
-Internet-Draft             Drafts Aren't Milk              November 2019
-
+   The date of posting for an Internet-Draft is the best -- or perhaps
+   only -- information available that can be added to a document the
+   time of publication that might help readers understand whether the
+   content is valid.  Future events might invalidate the content
+   virtually immediately; conversely, an Internet-Draft could also
+   remain relevant for an arbitrarily long period of time.
 
    This document proposes that the "Expires:" field be removed from the
    header of submitted Internet-Drafts, and that the boilerplate be
@@ -133,8 +127,8 @@ Internet-Draft             Drafts Aren't Milk              November 2019
       to use Internet-Drafts as reference material or to cite them other
       than as "work in progress."
 
-   Creating a revision to the I-D Guidelines will be necessary to remove
-   references to expiration.
+   Creating a revision to the Content Guidelines [IDCG] will be
+   necessary to remove references to expiration.
 
    This document updates RFC 2026 [STD] to remove the second paragraph
    of Section 2.2 and RFC 2418 [WG] to remove a single mention of
@@ -157,18 +151,10 @@ Internet-Draft             Drafts Aren't Milk              November 2019
 
    Expiration has also been used as a reminder to authors to update
    documents.  A substitute for expiration reminders might be to provide
-   a note in advance of planned sessions.
-
-
-
-
-
-
-
-Thomson                    Expires 24 May 2020                  [Page 3]
-
-Internet-Draft             Drafts Aren't Milk              November 2019
-
+   a note in advance of planned sessions.  For instance, for an upcoming
+   session N+1, a reminder might be issued for drafts that have not been
+   updated in the interval between session N and session N+1, but were
+   updated between session N-1 and session N.
 
 4.  Security and Privacy Considerations
 
@@ -180,45 +166,24 @@ Internet-Draft             Drafts Aren't Milk              November 2019
 
 6.  Normative References
 
+   [IDCG]     "Content guidelines overview", 1 June 2022,
+              <https://authors.ietf.org/en/content-guidelines-overview>.
+
    [STD]      Bradner, S., "The Internet Standards Process -- Revision
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
-              <https://www.rfc-editor.org/info/rfc2026>.
+              <https://www.rfc-editor.org/rfc/rfc2026>.
 
    [WG]       Bradner, S., "IETF Working Group Guidelines and
               Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
-              September 1998, <https://www.rfc-editor.org/info/rfc2418>.
+              September 1998, <https://www.rfc-editor.org/rfc/rfc2418>.
 
-Author's Address
+Authors' Addresses
 
    Martin Thomson
    Mozilla
-
    Email: mt@lowentropy.net
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Thomson                    Expires 24 May 2020                  [Page 4]
+   Paul Hoffman
+   ICANN
+   Email: paul.hoffman@icann.org
