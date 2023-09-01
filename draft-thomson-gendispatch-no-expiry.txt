@@ -6,7 +6,7 @@ General Area Dispatch                                         M. Thomson
 Internet-Draft                                                   Mozilla
 Updates: 2026, 2418 (if approved)                             P. Hoffman
 Intended status: Best Current Practice                             ICANN
-Expires: 3 March 2024                                     31 August 2023
+Expires: 4 March 2024                                   1 September 2023
 
 
             Removing Expiration Notices from Internet-Drafts
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 March 2024.
+   This Internet-Draft will expire on 4 March 2024.
 
 Copyright Notice
 
@@ -94,7 +94,8 @@ Table of Contents
    Copies of expired drafts are retained and can be obtained using other
    services.  Expired drafts are routinely cited and referenced.
    Published RFCs routinely include informative references to drafts,
-   which then usually expire.
+   which then usually expire.  Many IANA registries refer to expired
+   drafts.
 
 2.  Removing Internet-Draft Expiration
 
@@ -124,8 +125,7 @@ Table of Contents
 
       Internet-Drafts are draft documents that may be updated, replaced,
       or obsoleted by other documents at any time.  It is inappropriate
-      to use Internet-Drafts as reference material or to cite them other
-      than as "work in progress."
+      to cite them other than as "work in progress."
 
    Creating a revision to the Content Guidelines [IDCG] will be
    necessary to remove references to expiration.
@@ -144,7 +144,7 @@ Table of Contents
    disqualified from consideration and discussion.  At the same time,
    updating a draft indicates continued interest from the authors.
 
-   Working Groups chairs might choose to concentrate efforts on drafts
+   Working group chairs might choose to concentrate efforts on drafts
    that have been recently updated.  For instance, when setting an
    agenda for a session, chairs might give precedence to documents that
    have been updated since the preceding session.
