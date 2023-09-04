@@ -6,7 +6,7 @@ General Area Dispatch                                         M. Thomson
 Internet-Draft                                                   Mozilla
 Updates: 2026, 2418 (if approved)                             P. Hoffman
 Intended status: Best Current Practice                             ICANN
-Expires: 4 March 2024                                   1 September 2023
+Expires: 7 March 2024                                   4 September 2023
 
 
             Removing Expiration Notices from Internet-Drafts
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 March 2024.
+   This Internet-Draft will expire on 7 March 2024.
 
 Copyright Notice
 
@@ -130,9 +130,9 @@ Table of Contents
    Creating a revision to the Content Guidelines [IDCG] will be
    necessary to remove references to expiration.
 
-   This document updates RFC 2026 [STD] to remove the second paragraph
-   of Section 2.2 and RFC 2418 [WG] to remove a single mention of
-   expiration from Section 7.2.
+   This document updates RFC 2026 [STD-PROCESS] to remove the second
+   paragraph of Section 2.2 and RFC 2418 [WG] to remove a single mention
+   of expiration from Section 7.2.
 
    Other than these specific changes, both RFC 2026 and RFC 2418 refer
    to expiration of drafts.  With this change, this is understood to
@@ -169,7 +169,8 @@ Table of Contents
    [IDCG]     "Content guidelines overview", 1 June 2022,
               <https://authors.ietf.org/en/content-guidelines-overview>.
 
-   [STD]      Bradner, S., "The Internet Standards Process -- Revision
+   [STD-PROCESS]
+              Bradner, S., "The Internet Standards Process -- Revision
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
               <https://www.rfc-editor.org/rfc/rfc2026>.
 
